@@ -1,0 +1,431 @@
+/* Estilo css general y compartido en toda la aplicaión */
+
+/* login */
+.caja-login{
+    width: 500px;
+    background-color: #fff;
+    margin: 50px auto;
+    text-align: center;
+}
+.div-titulo-login{
+    text-align: center;
+}
+.input-login{
+    width: 350px;
+    height: 30px;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+
+/* Panel */
+body{margin: 0; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.boxs{box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);}
+.body-panel{display: flex; background-color: #f8f9fc;}
+.barra-lateral{
+    min-width: 200px;
+    height: 100vh;
+    background-color: #ddd;
+}
+.div-bs-c{width: 200vh;}
+.contenido-superior{height: 20%; display: flex; margin: 0 auto;}
+.contenido-medio, .contenido-inferior{height: 38%; display: flex; margin: 0 auto;}
+.div-mid-1{
+    width: 49%;
+    min-width: 350px;
+    height: 340px;
+    margin: 1% auto;
+    background-color: #fff;
+}
+.div-mid-2{
+    width: 24%;
+    min-width: 350px;
+    height: 340px;
+    margin: 1% auto;
+    background-color: #fff;
+}
+.div-mid-3{
+    width: 24%;
+    min-width: 350px;
+    height: 340px;
+    margin: 1% auto;
+    background-color: #fff;
+}
+.superior-cuatro{
+    width: 24%;
+    min-width: 350px;
+    height: 120px;
+    margin: 1% auto;
+    background-color: #fff;
+}
+.titulo-cuatro{
+    margin: 10px 0px 5px 15px;
+    font-size: 20px;
+}
+.valor-cuatro{
+    margin: 10px 0px 10px 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: green;
+    text-shadow: 1px 1px #1f1f1f;
+}
+.div-principal{
+    width: 68%;
+    height: 89vh;
+    margin: 1%;
+    text-align: center;
+}
+.div-secundario{
+    width: 28%;
+    height: 90vh;
+    margin: 1%;
+    text-align: center;
+}
+.div-sqlinsert{
+    height: 49%;
+    margin-bottom: 1%;
+}
+.div-extra{
+    height: 49%;
+    margin-top: 1%;
+}
+.caja-mostrar-tareas{
+    width: 600px;
+    margin: 0 auto;
+}
+.caja-datos-tareas{
+    width: 200px;
+    max-height: 60px;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+/* Barra superior */
+.barra-superior{
+    height: 60px;
+    background-color: #1f1f1f; 
+    color: #f1eded; 
+    display: flex;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+}
+.seccion{
+    width: 200px;
+    margin-right: auto;
+}
+.apartados{
+    width: auto;
+}
+.cerrar-sesion{
+    width: 200px;
+    margin-left: auto;
+    text-align: center;
+}
+.titulo-seccion{
+    margin: 10px;
+    text-align: center;
+    text-shadow: 1px 1px #fff;
+}
+.a-bcs{margin-top: 10px;}
+.boton-cerrar-sesion{
+    border: none;
+    margin-top: 10px;
+    background-color: rgb(255 255 255 / 50%);
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.boton-apartados{
+    border: none;
+    margin-top: 15px;
+    background-color: rgb(255 255 255 / 50%);
+    font-size: 16px;
+    font-weight: 600;
+    width: auto;
+    height: 30px;
+    border-radius: 4px;
+}
+
+/* Estilo */
+.titulo-general-login{
+    margin: 10px auto;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+}
+.input-type-1{
+    width: 350px;
+    height: 30px;
+    text-align: center;
+}
+.input-type-2{
+    width: 100px;
+    min-height: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+.ife{
+    display: flex;
+    width: 300px;
+    margin: auto;
+}
+.boton-enviar{
+    width: 100px;
+    height: 40px;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #1f1f1f;
+}
+.boton-enviar-delete{
+    width: 100px;
+    height: 40px;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #EA0303;
+}
+.boton-tareas{
+    width: 100px;
+    height: 25px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #1f1f1f;
+}
+.boton-tareas-2{
+    width: auto;
+    height: 25px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #1f1f1f;
+}
+#pages, .pages{
+    width: 140px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px auto;
+}
+.bt_buscador{
+    width: auto;
+    height: 25px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 600;
+    border: solid 2px white;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #1f1f1f;
+}
+
+/* Settings */
+.ud{
+    width: 360px;
+    height: 300px;
+    margin: 20px;
+}
+.settings-title{
+    margin: 10px 0px 0px 20px;
+    font-size: 32px;
+    font-weight: 800;
+}
+.input-login2{
+    width: 260px;
+    height: 30px;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+.form-settings{
+    width: 280px;
+    margin: 40px 0px 0px 30px;
+}
+.contenido00{display: flex;}
+.select-login{
+    width: 390px;
+    height: 40px;
+    background-color: #fff;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+.titulo-md{
+    margin: 0;
+    width: 300px;
+    margin: 16px auto;
+    border: solid 2px black;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+.div-contenido{display: flex;}
+.advance-data{width: 300px;}
+#add{display: flex;}
+.tabla-settings{
+    width: 320px;
+    margin: 10px auto;
+}
+.trs{height: 40px;}
+.td1{width: 280px;}
+.td2{width: 40px;}
+.fr{float: left; height: auto;}
+.div-sub-table{
+    height: 40px;
+    background-color: #1f1f1f;
+}
+.mas-sub-table{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 36px;
+}
+.hmwk-p{
+    margin: 5px 0px 5px 30px;
+}
+.bp{
+    width: 80px;
+    height: 16px;
+    margin: 5px 5px 5px 5px;
+}
+.bp2{margin: 5px 0px 5px 0px;}
+
+/* Chart index */
+.pie-legend {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.pie-legend span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    margin-right: 16px;
+    margin-bottom: -2px;
+}
+.chart{
+    width: 300px;
+    margin: auto;
+}
+
+/* Estilos generales */
+.border-g{border: solid 1px black; box-shadow: 0px 0px 10px rgb(0 0 0 / 40%); border-radius: 4px;}
+.principal{font-size: 20px; font-weight: 800; background-color: #1f1f1f; color: #fff;}
+
+/* Media Query */
+@media only screen and (max-width: 1440px){
+    .titulo-insert-data{display: none;}
+    .input-type-1{margin: 8px;}
+}
+@media only screen and (max-width: 1366px) and (min-width: 401px){
+    .superior-cuatro{
+        width: 308px;
+        min-width: 200px;
+        margin: 15px;
+        height: 90px;
+    }
+    .div-mid-3, .div-mid-2{
+        width: 308px;
+        min-width: 200px;
+        margin: 15px;
+        height: 300px;
+    }
+    .div-mid-1{
+        width: 648px;
+        min-width: 380px;
+        margin: 15px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 400px){
+    /* Panel de inicio */
+    .seccion{display: none;}
+    .barra-superior{
+        height: 100px;
+    }
+    .contenido-superior{
+        display: block;
+    }
+    .contenido-medio{
+        display: block;
+    }
+    .contenido-inferior{
+        display: block;
+    }
+    .div-mid-1{
+        width: 350px;
+        min-width: 300px;
+        margin: 5px auto;
+        height: auto;
+    }
+    .div-mid-3, .div-mid-2{
+        width: 350px;
+        min-width: 350px;
+        margin: 5px auto;
+        height: auto;
+    }
+    .superior-cuatro{
+        width: 350px;
+        height: 100px;
+        margin: 4px auto;
+    }
+    .apartados{margin-left: 10px;}
+    .boton-cerrar-sesion{width: 60px; height: 80px;}
+    .cerrar-sesion{width: 80px; margin-right: 10px;}
+    .ns{display: none;}
+    .div-principal, .div-secundario{
+        width: 340px; 
+        height: auto;
+        margin: 5px auto;
+    }
+    .caja-mostrar-tareas{width: 340px;}
+    .div-contenido{display: block;}
+    .div-sqlinsert, .div-extra{width: 340px; margin: 0 auto;}
+    .input-type-1{width: 300px;}
+    .div-contenido{width: 360px; margin: 0 auto;}
+    .contenido00{display: block;}
+    .ud{
+        width: 340px;
+        margin: 5px auto;
+    }
+    .caja-login{
+        width: 340px;
+        margin: 5px auto;
+    }
+    .input-login{width: 260px;}
+    .select-login{width: 302px;}
+    #add{display: block;}
+    .advance-data{width: 340px;}
+    .ud{height: auto; float: none;}
+}

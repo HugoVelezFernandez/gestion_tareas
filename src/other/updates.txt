@@ -1,0 +1,36 @@
+Cambios respecto a la version "beta_2"
+    1. Añadir datos al contenedor de datos avanzados.
+    2. Los datos de datos avanzados son respecto a los ateriores (entregados a tiempo respecto a los entregados, etc.)
+    3. Crear grafica que muestra la cantidad de tareas por asignatura.
+    4. Arreglar ciertos errores de sintaxis.
+
+Cambios respecto a la version "beta_1"
+    1. No mostrar la tabla y el paginador si no existen datos.
+    2. Cambiar el estilo de el titulo de las listas.
+    3. Mejorar el estilo del panel de insercion de datos.
+    4. Adapatr la aplicacion a resolución 1440 * 900 y 1366 * 768, (with 400 y 360). Adaptacion por probar.
+    5. Añadir en el panel de inico un contenedor que muestra que tareas tienes por hacer.
+    6. Añadir datos al panel de "Advanced data"
+    7. Añadir funcionalidad de añadir o quitar asignaturas.
+    8. Añadir una barra de progreso al contenedor de datos avanzados (Barra de progreso por dato).
+    9. Solucionar error logico de cambio de contraseña (panel de settings).
+    10. Solucionar problema de direccionamiento en paneles de cambiar datos (link a settings).
+    11. Cambiar funcionalidad de gestion de usuarios, permitiendo añadirlos o eliminarlos.
+
+Cambios respecto a la version "Alpha_1"
+
+    1. Redondeo a 2 decimales los datos avanzados del panel de inicio (Solo porcentages)
+    2. Cambiar la funcionalidad de los datos de examenes trabajos y tareas, de mostrar el total de tareas a mostrar las tareas que no se han entregado todavia (Divs superiores)
+    3. Poner la funcionalidad de mostrar examenes y trabajos ya entregados en sus correspondientes paneles.
+    4. Pasar la insercion de sql de los paneles principales a otro archivo (action="") para que no surgan 2 inserciones de codigo o confusiones.
+    5. Crear el panel de Settings.
+        5.1. Agrega una funcionalidad de cambiar datos de usuario.
+        5.2. Agregar funcionalidad de agregar nuevo usuario dentro del panel.
+    6. Ocultar el contenido avanzado de los datos, para completarlo en otras versiones.
+    7. Crear un panel de creacion de usuario accesible desde login, solamente utilizable si no existe ningun usuario.
+    8. Comentar codigo para distingir cada funcionalidad.
+    9. Crear un manual de los requisitos minimos para un correcto funcionamiento y personalizacion de la aplicación.
+    10. Limitar la funcionalidad de crear nuevo usuario en settings solo para el usuario administrador (WHERE id = 1)
+    11. Crear manual de usuario.
+    12. En los paneles de insercion de datos, detectar el mes actual y colocarlo como opcion predeterminada.
+    X. Arreglar varios problemas de redireccionamiento y textos erroneos.

@@ -1,0 +1,27 @@
+Manual de usuario de la aplicacion (Version Beta_1)
+
+    Esta aplicacion esta diseñada principalmente para registrar las tareas, trabajos y examenes del curso, con esto podemos tener la cuenta de las diferentes obligaciones que nos da el ciclo. 
+    La aplicacion nos mostrara diferentas datos en su panel de inicio, principalmente son las tareas que tienes pendientes por entregar en los contenedores superiores (div), y en los contenedores
+    inferiores estan otros datoas acerca de las tareas, trabajos y examenes. 
+
+    A parte del panel de inicio tenemos otros 3 que serviran de igual forma pero mostrando y tratando con datos diferentes, estos son los apartados de tareas, trabajos y examenes. en estos 
+    apartados podremos añadir y configurar los diferentes apartados. En el contenedor mas grande se mostraran las tareas que no se hayan entregado todavia y se ocultaran las que si, para 
+    poder acceder a estas ultimas tendras un checkbox que te mostrara dicha informacion. En el contenedor lateral derecho tendras la funcionalidad de añadir un nuevo registro, todo esto aplicado
+    a los tres apartados (trabajos, tareas y examenes)
+
+    Por ultimo tenemos el panel de settings que contiene tres funcionalidades, cambiar los parametros de usuario, añadir o eliminar asignaturas y crear nuevos, este ultimo reservado para el 
+    usuario administrador, que sera el que tenga el id 1 (WHERE id = 1)
+
+    Esta aplicacion implementa la capacidad e gestionar a varios usuarios de forma encapsulada, en una misma base de datos pueden trabajar varios usuarios, por lo que podria instalarse por ejemplo
+    en clase para todos los alumnos y no existirian problemas.
+
+    En cuanto a la estructura de archivos y carpetas:
+
+    curso -- estilos (contiene los archivos css)
+          -- imgs (contiene las imagenes de la aplicacion)
+          -- panel -- actions (contiene la aplicacion como tal, en actions estan los archivos secundarios)
+          -- other (Contiene los archivos de texto explicativo acerca de la aplicacion)
+          -- php (archivos esenciales para el correcto funcionamiento como la conexion con la base de datos, el JWT o la comprobacion del usuario)
+
+    Archivos importantes concretos:
+        1. Conexion con la base de datos "/curso/php/cnn.php"
