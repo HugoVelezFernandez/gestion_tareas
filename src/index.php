@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/general.css">
     <link rel="shortcut icon" href="imgs/hwf.png" type="image/x-icon">
-    <title>Log In de Luis</title>
+    <title>Log In</title>
 </head>
 <body>
     <div class="caja-login border-g">
